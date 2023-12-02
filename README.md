@@ -66,5 +66,7 @@ terraform init
 ## Acknowledgements
 
 I am following a project created by Sid Palas titled "Complete Terraform Course - From BEGINNER to PRO!(Learn Infrastructure as Code)"
+
 Here's the Youtube link - https://www.youtube.com/watch?v=7xngnjfIlK4&t=192s
+
 Here's the website - https://courses.devopsdirective.com/terraform-beginner-to-pro/lessons/00-introduction/01-main
