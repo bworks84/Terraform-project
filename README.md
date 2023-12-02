@@ -5,7 +5,6 @@ This is a follow along project of a the Youtube course titled "Complete Terrafor
 ## Table of Contents
 
 - [Project Title](#project-title)
-  - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
   - [Getting Started](#getting-started)
@@ -42,9 +41,9 @@ Infrastructure as Code is a useful tool for building and versioning cloud infras
 7. Created a main.tf page utilizing GitHub CoPilot help, to create my first EC2 instance as a practice run to ensure CLI is setup
 8. Initialized terraform project with terraform init
 9. Ran terraform plan, terraform apply, and entered 'yes' to apply the first terraform stage of project
-10. Checked AWS EC2 page for completion. ![Alt text](../terraform-project/images/instance_ex.png)
+10. Checked AWS EC2 page for completion. ![Alt text](./images/instance_ex.png)
 
-- You can also see the EC2 Instance AMI ID is the same as in the main.tf page ![Alt text](../terraform-project/images/ami_ex.png)
+- You can also see the EC2 Instance AMI ID is the same as in the main.tf page ![Alt text](./images/ami_ex.png)
 
 11. Finally, I ran terraform destroy to shut the instance down and remove it, then verified the process is completed in AWS.
 
