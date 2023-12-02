@@ -40,7 +40,8 @@ Infrastructure as Code is a useful tool for building and versioning cloud infras
 4. Created new user group in AWS with permission access to EC2, S3, IAM, RDS, Dynamo, and R53
 5. Added user to user group
 6. Set up AWS CLI with aws configure (with access key and secret access key) for user that I will be working with throughout this project
-7. Created a main.tf page utilizing GitHub CoPilot help, to create my first EC2 instance as a practice run to ensure CLI is setup ![Alt text](./images/main_tf_ex.png)
+7. Created a main.tf page utilizing GitHub CoPilot help, to create my first EC2 instance as a practice run to ensure CLI is setup <img src="./images/main_tf_ex.png" alt="Screenshot" width="300"/>
+
 8. Initialized terraform project with terraform init
 9. Ran terraform plan, terraform apply, and entered 'yes' to apply the first terraform stage of project
 10. Checked AWS EC2 page for completion. ![Alt text](./images/instance_ex.png)
