@@ -9,7 +9,10 @@ Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Documentation](#documentation)
+- [Tasks](#tasks)
+- [Notes](#notes)
 
 ## Introduction
 
@@ -25,7 +28,10 @@ Highlight key features or functionalities of your project.
 
 ## Getting Started
 
-These instructions will help you get a copy of the project up and running on your local machine.
+- Set up Terraform
+- Set up AWS User for project
+- Set up AWS CLI and Access Keys
+- Set up test with simple main.tf file and sample ec2, run terraform plan/apply, and verify in console. Complete with terraform destroy once satisfied with local setup.
 
 ### Prerequisites
 
@@ -34,3 +40,20 @@ List any prerequisites or dependencies needed to run the project.
 ## Acknowledgements
 
 This is a Youtube course by DevOps Directive - https://www.youtube.com/watch?v=7xngnjfIlK4&list=WL&index=11&t=3274s
+
+## Documentation
+
+- Terraform : https://developer.hashicorp.com/terraform/docs
+
+## Tasks
+
+[ ] - Task 1
+
+## Notes
+
+Basic Usage Sequence
+
+- terraform init
+- terraform plan
+- terraform apply
+- terraform destroy
