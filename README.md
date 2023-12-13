@@ -1,6 +1,4 @@
-# Project Title
-
-Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)
+# Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)
 
 ## Table of Contents
 
