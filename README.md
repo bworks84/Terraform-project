@@ -18,15 +18,13 @@ Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)
 
 ## Introduction
 
-Provide a brief introduction to your project. What does it do? Why is it useful?
+Learn Terraform by provisioning resources in AWS.
 
 ## Features
 
 Highlight key features or functionalities of your project.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Build web-app with RDS instance, S3 bucket, Load Balancer, 2 EC2 instances, and VPC with security groups
 
 ## Getting Started
 
@@ -36,8 +34,6 @@ Highlight key features or functionalities of your project.
 - Set up test with simple main.tf file and sample ec2, run terraform plan/apply, and verify in console. Complete with terraform destroy once satisfied with local setup.
 
 ### Prerequisites
-
-List any prerequisites or dependencies needed to run the project.
 
 ## Acknowledgements
 
@@ -49,7 +45,8 @@ This is a Youtube course by DevOps Directive - https://www.youtube.com/watch?v=7
 
 ## Tasks
 
-[ ] - Task 1
+[x] - Completed Web-app, updated notes with photos
+[x] - push to repo, list on portfolio
 
 ## Notes
 
