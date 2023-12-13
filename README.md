@@ -13,6 +13,8 @@
 - [Notes](#notes)
 - [Backend](#backend)
 - [Web-app](#web-app)
+- [Variables](#variables)
+- [Organization](#organization)
 
 ## Introduction
 
@@ -57,7 +59,7 @@ Basic Usage Sequence
 
 README references
 
-- ![alt text](http://url/to/img.png)
+- /![alt text](http://url/to/img.png)/
 
 ## Backend:
 
@@ -92,3 +94,46 @@ All resources provisioned !
 RDS instance will take awhile....
 
 ![alt text](./photos/rds-up.png)
+
+## Variables
+
+Variable Types
+
+Input vars
+
+- var.<name>
+
+Local vars
+
+- local.<name>
+
+Output vars
+
+Lowest - highest
+
+- Manual entry during plan/apply
+- Default value in declaration block
+- TF*VAR*<name> env var
+- Terraform .tfvars file
+- \*.auto.tfvars file
+- Command line -var or -var-file
+
+Recreated web app with variables now to make more dynamic, hide some info, etc.
+
+## Organization
+
+depends_on : terraform auto generates dependency graph based on references
+
+- If two resources depend on each other, depends_on specifies that dependency to enforcing ordering
+
+Count is convenient to use as an argument for resources. Ex
+
+for_each allows for creation of multiple resources/modules from a single block
+
+What makes a good module?
+
+- Raises the abstraction level from base resource types
+- Groups resources in a logical fashion
+- Exposes input vars to allow necessary customization + composition
+- Provides useful defaults
+- Returns outputs to make further integrations possible
